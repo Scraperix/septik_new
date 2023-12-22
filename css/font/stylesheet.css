@@ -1,0 +1,442 @@
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url('SamsungSharpSans-Bold.eot');
+    src: url('SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSharpSans-Bold.woff2') format('woff2'),
+        url('SamsungSharpSans-Bold.woff') format('woff'),
+        url('SamsungSharpSans-Bold.ttf') format('truetype'),
+        url('SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('ProximaNova-Black.eot');
+    src: url('ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Black.woff2') format('woff2'),
+        url('ProximaNova-Black.woff') format('woff'),
+        url('ProximaNova-Black.ttf') format('truetype'),
+        url('ProximaNova-Black.svg#ProximaNova-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('ProximaNova-Black_1.eot');
+    src: url('ProximaNova-Black_1.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Black_1.woff2') format('woff2'),
+        url('ProximaNova-Black_1.woff') format('woff'),
+        url('ProximaNova-Black_1.ttf') format('truetype'),
+        url('ProximaNova-Black_1.svg#ProximaNova-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Bl';
+    src: url('ProximaNova-BlackIt.eot');
+    src: url('ProximaNova-BlackIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-BlackIt.woff2') format('woff2'),
+        url('ProximaNova-BlackIt.woff') format('woff'),
+        url('ProximaNova-BlackIt.ttf') format('truetype'),
+        url('ProximaNova-BlackIt.svg#ProximaNova-BlackIt') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-Regular.eot');
+    src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Regular.woff2') format('woff2'),
+        url('ProximaNova-Regular.woff') format('woff'),
+        url('ProximaNova-Regular.ttf') format('truetype'),
+        url('ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-BoldIt.eot');
+    src: url('ProximaNova-BoldIt.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-BoldIt.woff2') format('woff2'),
+        url('ProximaNova-BoldIt.woff') format('woff'),
+        url('ProximaNova-BoldIt.ttf') format('truetype'),
+        url('ProximaNova-BoldIt.svg#ProximaNova-BoldIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('ProximaNova-Light.eot');
+    src: url('ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Light.woff2') format('woff2'),
+        url('ProximaNova-Light.woff') format('woff'),
+        url('ProximaNova-Light.ttf') format('truetype'),
+        url('ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('ProximaNova-Bold.eot');
+    src: url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-Bold.woff2') format('woff2'),
+        url('ProximaNova-Bold.woff') format('woff'),
+        url('ProximaNova-Bold.ttf') format('truetype'),
+        url('ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-ExtraBold.eot');
+    src: url('ProximaNova-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNova-ExtraBold.woff2') format('woff2'),
+        url('ProximaNova-ExtraBold.woff') format('woff'),
+        url('ProximaNova-ExtraBold.ttf') format('truetype'),
+        url('ProximaNova-ExtraBold.svg#ProximaNova-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-BlackItalic.eot');
+    src: url('DINPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-BlackItalic.woff2') format('woff2'),
+        url('DINPro-BlackItalic.woff') format('woff'),
+        url('DINPro-BlackItalic.ttf') format('truetype'),
+        url('DINPro-BlackItalic.svg#DINPro-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-Bold.eot');
+    src: url('DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-Bold.woff2') format('woff2'),
+        url('DINPro-Bold.woff') format('woff'),
+        url('DINPro-Bold.ttf') format('truetype'),
+        url('DINPro-Bold.svg#DINPro-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-Black.eot');
+    src: url('DINPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-Black.woff2') format('woff2'),
+        url('DINPro-Black.woff') format('woff'),
+        url('DINPro-Black.ttf') format('truetype'),
+        url('DINPro-Black.svg#DINPro-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedBlack.eot');
+    src: url('DINPro-CondensedBlack.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedBlack.woff2') format('woff2'),
+        url('DINPro-CondensedBlack.woff') format('woff'),
+        url('DINPro-CondensedBlack.ttf') format('truetype'),
+        url('DINPro-CondensedBlack.svg#DINPro-CondensedBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-BoldItalic.eot');
+    src: url('DINPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-BoldItalic.woff2') format('woff2'),
+        url('DINPro-BoldItalic.woff') format('woff'),
+        url('DINPro-BoldItalic.ttf') format('truetype'),
+        url('DINPro-BoldItalic.svg#DINPro-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro.eot');
+    src: url('DINPro.eot?#iefix') format('embedded-opentype'),
+        url('DINPro.woff2') format('woff2'),
+        url('DINPro.woff') format('woff'),
+        url('DINPro.ttf') format('truetype'),
+        url('DINPro.svg#DINPro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedBlackItalic.eot');
+    src: url('DINPro-CondensedBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedBlackItalic.woff2') format('woff2'),
+        url('DINPro-CondensedBlackItalic.woff') format('woff'),
+        url('DINPro-CondensedBlackItalic.ttf') format('truetype'),
+        url('DINPro-CondensedBlackItalic.svg#DINPro-CondensedBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedBold.eot');
+    src: url('DINPro-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedBold.woff2') format('woff2'),
+        url('DINPro-CondensedBold.woff') format('woff'),
+        url('DINPro-CondensedBold.ttf') format('truetype'),
+        url('DINPro-CondensedBold.svg#DINPro-CondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedLightItalic.eot');
+    src: url('DINPro-CondensedLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedLightItalic.woff2') format('woff2'),
+        url('DINPro-CondensedLightItalic.woff') format('woff'),
+        url('DINPro-CondensedLightItalic.ttf') format('truetype'),
+        url('DINPro-CondensedLightItalic.svg#DINPro-CondensedLightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedRegular.eot');
+    src: url('DINPro-CondensedRegular.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedRegular.woff2') format('woff2'),
+        url('DINPro-CondensedRegular.woff') format('woff'),
+        url('DINPro-CondensedRegular.ttf') format('truetype'),
+        url('DINPro-CondensedRegular.svg#DINPro-CondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedMediumItalic.eot');
+    src: url('DINPro-CondensedMediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedMediumItalic.woff2') format('woff2'),
+        url('DINPro-CondensedMediumItalic.woff') format('woff'),
+        url('DINPro-CondensedMediumItalic.ttf') format('truetype'),
+        url('DINPro-CondensedMediumItalic.svg#DINPro-CondensedMediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedLight.eot');
+    src: url('DINPro-CondensedLight.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedLight.woff2') format('woff2'),
+        url('DINPro-CondensedLight.woff') format('woff'),
+        url('DINPro-CondensedLight.ttf') format('truetype'),
+        url('DINPro-CondensedLight.svg#DINPro-CondensedLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedMedium.eot');
+    src: url('DINPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedMedium.woff2') format('woff2'),
+        url('DINPro-CondensedMedium.woff') format('woff'),
+        url('DINPro-CondensedMedium.ttf') format('truetype'),
+        url('DINPro-CondensedMedium.svg#DINPro-CondensedMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedItalic.eot');
+    src: url('DINPro-CondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedItalic.woff2') format('woff2'),
+        url('DINPro-CondensedItalic.woff') format('woff'),
+        url('DINPro-CondensedItalic.ttf') format('truetype'),
+        url('DINPro-CondensedItalic.svg#DINPro-CondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro Cond';
+    src: url('DINPro-CondensedBoldItalic.eot');
+    src: url('DINPro-CondensedBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-CondensedBoldItalic.woff2') format('woff2'),
+        url('DINPro-CondensedBoldItalic.woff') format('woff'),
+        url('DINPro-CondensedBoldItalic.ttf') format('truetype'),
+        url('DINPro-CondensedBoldItalic.svg#DINPro-CondensedBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-LightItalic.eot');
+    src: url('DINPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-LightItalic.woff2') format('woff2'),
+        url('DINPro-LightItalic.woff') format('woff'),
+        url('DINPro-LightItalic.ttf') format('truetype'),
+        url('DINPro-LightItalic.svg#DINPro-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-MediumItalic.eot');
+    src: url('DINPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-MediumItalic.woff2') format('woff2'),
+        url('DINPro-MediumItalic.woff') format('woff'),
+        url('DINPro-MediumItalic.ttf') format('truetype'),
+        url('DINPro-MediumItalic.svg#DINPro-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-Light.eot');
+    src: url('DINPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-Light.woff2') format('woff2'),
+        url('DINPro-Light.woff') format('woff'),
+        url('DINPro-Light.ttf') format('truetype'),
+        url('DINPro-Light.svg#DINPro-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-Medium.eot');
+    src: url('DINPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-Medium.woff2') format('woff2'),
+        url('DINPro-Medium.woff') format('woff'),
+        url('DINPro-Medium.ttf') format('truetype'),
+        url('DINPro-Medium.svg#DINPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DIN Pro';
+    src: url('DINPro-Italic.eot');
+    src: url('DINPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DINPro-Italic.woff2') format('woff2'),
+        url('DINPro-Italic.woff') format('woff'),
+        url('DINPro-Italic.ttf') format('truetype'),
+        url('DINPro-Italic.svg#DINPro-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('SamsungSans-Bold.eot');
+    src: url('SamsungSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSans-Bold.woff2') format('woff2'),
+        url('SamsungSans-Bold.woff') format('woff'),
+        url('SamsungSans-Bold.ttf') format('truetype'),
+        url('SamsungSans-Bold.svg#SamsungSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('SamsungSans-Regular.eot');
+    src: url('SamsungSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSans-Regular.woff2') format('woff2'),
+        url('SamsungSans-Regular.woff') format('woff'),
+        url('SamsungSans-Regular.ttf') format('truetype'),
+        url('SamsungSans-Regular.svg#SamsungSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('SamsungSans-Medium.eot');
+    src: url('SamsungSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSans-Medium.woff2') format('woff2'),
+        url('SamsungSans-Medium.woff') format('woff'),
+        url('SamsungSans-Medium.ttf') format('truetype'),
+        url('SamsungSans-Medium.svg#SamsungSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('SamsungSans-Light.eot');
+    src: url('SamsungSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSans-Light.woff2') format('woff2'),
+        url('SamsungSans-Light.woff') format('woff'),
+        url('SamsungSans-Light.ttf') format('truetype'),
+        url('SamsungSans-Light.svg#SamsungSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sans';
+    src: url('SamsungSans-Thin.eot');
+    src: url('SamsungSans-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSans-Thin.woff2') format('woff2'),
+        url('SamsungSans-Thin.woff') format('woff'),
+        url('SamsungSans-Thin.ttf') format('truetype'),
+        url('SamsungSans-Thin.svg#SamsungSans-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
