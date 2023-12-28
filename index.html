@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
 <div id="page" class="page">
@@ -163,14 +164,16 @@
   				<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
 					  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="#8DC63F"/>
 					</svg>
-  				<img src="img/map.png" alt="">
-  				<div class="descr">
-  					<p>
-  						454008, г. Челябинск,Свердловский <br> проспект 32, офис 108
-  					</p>
-  					<a href="">
-  						Посмотреть на карте
-  					</a>
+  				<div class="img-descr">
+  					<img src="img/map.png" alt="">
+	  				<div class="descr">
+	  					<p>
+	  						454008, г. Челябинск, Свердловский <br> проспект 32, офис 108
+	  					</p>
+	  					<a href="">
+	  						Посмотреть на карте
+	  					</a>
+	  				</div>
   				</div>
   			</div>
   			<div class="elem">
@@ -178,34 +181,642 @@
 					  <path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M0.692308 11.0769C1.07466 11.0769 1.38462 11.3869 1.38462 11.7692C1.38462 13.0942 1.38608 14.0183 1.47983 14.7156C1.57089 15.393 1.73746 15.7516 1.99293 16.0071C2.2484 16.2626 2.60709 16.4291 3.28442 16.5202C3.98166 16.6139 4.90578 16.6154 6.23077 16.6154H11.7692C13.0942 16.6154 14.0183 16.6139 14.7156 16.5202C15.393 16.4291 15.7516 16.2626 16.0071 16.0071C16.2626 15.7516 16.4291 15.393 16.5202 14.7156C16.6139 14.0183 16.6154 13.0942 16.6154 11.7692C16.6154 11.3869 16.9254 11.0769 17.3077 11.0769C17.69 11.0769 18 11.3869 18 11.7692V11.8199C18 13.0823 18 14.0998 17.8925 14.9001C17.7808 15.731 17.5418 16.4305 16.9862 16.9861C16.4305 17.5418 15.731 17.7808 14.9001 17.8925C14.0998 18 13.0823 18 11.8199 18H6.18012C4.91773 18 3.9002 18 3.09992 17.8925C2.26905 17.7808 1.56948 17.5418 1.01386 16.9862C0.458244 16.4305 0.219268 15.731 0.107557 14.9001C-3.65056e-05 14.0998 -1.79779e-05 13.0823 4.83649e-07 11.8199C4.83649e-07 11.803 4.83649e-07 11.7861 4.83649e-07 11.7692C4.83649e-07 11.3869 0.309961 11.0769 0.692308 11.0769Z" fill="#8DC63F"/>
 					  <path fill-rule="evenodd" clip-rule="evenodd" d="M8.99997 13.3846C9.19437 13.3846 9.37973 13.3029 9.5109 13.1595L13.2032 9.12101C13.4612 8.83883 13.4416 8.40092 13.1594 8.14292C12.8773 7.88492 12.4394 7.90449 12.1814 8.18668L9.69228 10.9091V0.692308C9.69228 0.30996 9.38231 0 8.99997 0C8.61763 0 8.30766 0.30996 8.30766 0.692308V10.9091L5.81862 8.18668C5.56062 7.90449 5.12271 7.88492 4.84052 8.14292C4.55834 8.40092 4.53872 8.83883 4.79672 9.12101L8.48905 13.1595C8.62022 13.3029 8.80557 13.3846 8.99997 13.3846Z" fill="#8DC63F"/>
 					</svg>
-  				<img src="img/catalog.png" alt="">
-  				<div class="descr">
-  					<p>
-  						В 1 клик скачайте прайс-каталог<br> на все септики 2023
-  					</p>
-  					<a href="">
-  						Скачать каталог с ценами 
-  					</a>
+  				<div class="img-descr">
+						<img src="img/catalog.png" alt="">
+	  				<div class="descr">
+	  					<p>
+	  						В 1 клик скачайте прайс-каталог<br> на все септики 2023
+	  					</p>
+	  					<a href="">
+	  						Скачать каталог с ценами 
+	  					</a>
+	  				</div>
   				</div>
   			</div>
   			<div class="elem">
   				<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
 					  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="#8DC63F"/>
 					</svg>
-  				<img src="img/wp.svg" alt="">
-  				<div class="descr">
-  					<p>
-  						Задайте вопрос, мы сейчас <br> онлайн
+					<div class="img-descr">
+	  				<img src="img/wp.svg" alt="">
+	  				<div class="descr">
+	  					<p>
+	  						Задайте вопрос, мы сейчас <br> онлайн
 
-  					</p>
-  					<a href="">
-  						Написать в WhatsApp
-  					</a>
+	  					</p>
+	  					<a href="">
+	  						Написать в WhatsApp
+	  					</a>
+	  				</div>
   				</div>
   			</div>
   		</div>
   	</section>
+  	<section class="main-banner">
+  		<!-- Swiper -->
+		  <div class="swiper swiper-main-banner">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide">
+		      	<img src="img/main-banner-1.png" alt="">
+		      	<div class="green-rect"></div>
+		      	<div class="main-body">
+		      		<img src="img/zero-ing.svg" alt="" class="zero-ing">
+		      		<h1>
+		      			Автономная <br> канализация для <br>загородных домов<br>
+
+		      		</h1>
+		      		<p>
+		      			Без накруток, цена завода-изготовителя, а также<br> фиксация цена в договоре.
+		      		</p>
+		      		<a href="#">
+		      			калькулятор цен
+		      		</a>
+		      	</div>
+		      </div>
+		      <div class="swiper-slide">
+		      	<img src="img/main-banner-1.png" alt="">
+		      	<div class="green-rect"></div>
+		      	<div class="main-body">
+		      		<img src="img/zero-ing.svg" alt="" class="zero-ing">
+		      		<h1>
+		      			Второй <br> баннер для <br>главной страницы
+		      		</h1>
+		      		<p>
+		      			Также будет другая картинка.
+		      		</p>
+		      		<a href="#">
+		      			Кнопка
+		      		</a>
+		      	</div>
+		      </div>
+		    </div>
+		    <div class="swiper-buttons">
+		    	<div class="swiper-button-prev">
+		    		<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+						  <circle cx="21" cy="21" r="20.25" transform="matrix(-1 0 0 1 42 0)" stroke="white" stroke-width="1.5"/>
+						  <path d="M12.4697 21.5303C12.1768 21.2374 12.1768 20.7626 12.4697 20.4697L17.2426 15.6967C17.5355 15.4038 18.0104 15.4038 18.3033 15.6967C18.5962 15.9896 18.5962 16.4645 18.3033 16.7574L14.0607 21L18.3033 25.2426C18.5962 25.5355 18.5962 26.0104 18.3033 26.3033C18.0104 26.5962 17.5355 26.5962 17.2426 26.3033L12.4697 21.5303ZM29 21.75H13V20.25H29V21.75Z" fill="white"/>
+						</svg>
+		    	</div>
+    			<div class="swiper-button-next">
+    				<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+						  <circle cx="21" cy="21" r="20.25" stroke="white" stroke-width="1.5"/>
+						  <path d="M29.5303 21.5303C29.8232 21.2374 29.8232 20.7626 29.5303 20.4697L24.7574 15.6967C24.4645 15.4038 23.9896 15.4038 23.6967 15.6967C23.4038 15.9896 23.4038 16.4645 23.6967 16.7574L27.9393 21L23.6967 25.2426C23.4038 25.5355 23.4038 26.0104 23.6967 26.3033C23.9896 26.5962 24.4645 26.5962 24.7574 26.3033L29.5303 21.5303ZM13 21.75H29V20.25H13V21.75Z" fill="white"/>
+						</svg>
+    			</div>
+		    </div>
+		    
+		    
+		    <div class="swiper-pagination"></div>
+		  </div>
+  	</section>
+  	<section class="banner-econom-blog-once">
+  		<div class="banner-econom">
+  			<div class="swiper swiper-banner-econom">
+			    <div class="swiper-wrapper">
+			      <!-- <div class="swiper-slide">
+			      	"rjyjv"
+			      </div> -->
+			      <div class="swiper-slide">
+		      		<img class="econom-1" src="img/econom-septik.png" alt="">
+		      		<img class="econom-2" src="img/econom-septik.png" alt="">
+		      		<img class="snow-1" src="img/snow-1.svg" alt="">
+		      		<img class="snow-2" src="img/snow-2.svg" alt="">
+		      		<img class="snow-3" src="img/snow-3.svg" alt="">
+		      		<img class="snow-4" src="img/snow-4.svg" alt="">
+		      		<div class="sale-stroke-1">
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>    
+		      		</div>
+		      		<div class="sale-stroke-2">
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>    
+		      		</div>
+			      	
+			      	<div class="econom-body">
+			      		<p>
+			      			Готовь септик зимой!
+			      		</p>
+			      		<h2>
+			      			Экономия <span>до 50 000 ₽</span>
+			      		</h2>
+			      		<a href="#">подробнее</a>
+			      	</div>
+			      </div>
+			      <div class="swiper-slide">
+		      		<img class="econom-1" src="img/econom-septik.png" alt="">
+		      		<img class="econom-2" src="img/econom-septik.png" alt="">
+		      		<img class="snow-1" src="img/snow-1.svg" alt="">
+		      		<img class="snow-2" src="img/snow-2.svg" alt="">
+		      		<img class="snow-3" src="img/snow-3.svg" alt="">
+		      		<img class="snow-4" src="img/snow-4.svg" alt="">
+		      		<div class="sale-stroke-1">
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>    
+		      		</div>
+		      		<div class="sale-stroke-2">
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>
+		      			<span>акция месяца</span>    
+		      		</div>
+			      	
+			      	<div class="econom-body">
+			      		<p>
+			      			Готовь септик летом!
+			      		</p>
+			      		<h2>
+			      			Второй <span>баннер</span>
+			      		</h2>
+			      		<a href="#">подробнее</a>
+			      	</div>
+			      </div>
+			    </div>
+			    <div class="swiper-buttons">
+			    	
+			    	<div class="swiper-button-prev">
+			    		<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+								<circle cx="21" cy="21" r="20.25" transform="matrix(-1 0 0 1 42 0)" stroke="white" stroke-width="1.5"/>
+								<path d="M12.4697 21.5303C12.1768 21.2374 12.1768 20.7626 12.4697 20.4697L17.2426 15.6967C17.5355 15.4038 18.0104 15.4038 18.3033 15.6967C18.5962 15.9896 18.5962 16.4645 18.3033 16.7574L14.0607 21L18.3033 25.2426C18.5962 25.5355 18.5962 26.0104 18.3033 26.3033C18.0104 26.5962 17.5355 26.5962 17.2426 26.3033L12.4697 21.5303ZM29 21.75H13V20.25H29V21.75Z" fill="white"/>
+							</svg>
+			    	</div>
+			    	<div class="swiper-button-next">
+				    	<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+								<circle cx="21" cy="21" r="20.25" stroke="white" stroke-width="1.5"/>
+								<path d="M29.5303 21.5303C29.8232 21.2374 29.8232 20.7626 29.5303 20.4697L24.7574 15.6967C24.4645 15.4038 23.9896 15.4038 23.6967 15.6967C23.4038 15.9896 23.4038 16.4645 23.6967 16.7574L27.9393 21L23.6967 25.2426C23.4038 25.5355 23.4038 26.0104 23.6967 26.3033C23.9896 26.5962 24.4645 26.5962 24.7574 26.3033L29.5303 21.5303ZM13 21.75H29V20.25H13V21.75Z" fill="white"/>
+							</svg>
+						</div>
+			    </div>
+			    
+			    <div class="swiper-pagination"></div>
+			  </div>
+  		</div>
+  		<div class="blog-once">
+  			<a href="#">
+  				<div class="blog-rect">
+	  				<img class="blog-img" src="img/blog-once.png" alt="">
+	  				<div class="green-rect"></div>
+	  				<div class="blog-once-body">
+	  					<h3>
+	  						Как сделать септик <br> своими руками?
+	  					</h3>
+	  					<time>
+	  						15.05.2023
+	  					</time>
+	  				</div>
+	  				<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+						  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="white"/>
+						</svg>
+	  			</div>
+  			</a>	
+  			<a href="">Все статьи о септиках</a>
+  		</div>
+  	</section>
+  	<section class="septik-types">
+
+		  <div class="swiper septik-types-swiper">
+		  	<div class="title">
+	  			<h2>
+	  				Септики и автономные канализации<br> «под ключ»
+	  			</h2>
+	  		</div>
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide">
+		      	<img class="logo" src="img/chelseptiks-types.png" alt="">
+		      	<div class="line"></div>
+		      	<img class="circ" src="img/types-1.png" alt="" >
+		      	<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+						  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="white"/>
+						</svg>
+		      	<div class="body-type">
+		      		<h4>
+		      			Все виды септиков<br> от <span>13 990 ₽</span>
+		      		</h4>
+		      		<p>
+		      			Автономные канализации, септики энергозависимые, емкости.
+		      		</p>
+		      		<a href="#">Открыть каталог</a>
+		      	</div>
+		      </div>
+		      <div class="swiper-slide">
+		      	<img class="logo" src="img/chelseptiks-types.png" alt="">
+		      	<div class="line"></div>
+		      	<img class="circ" src="img/types-1.png" alt="" >
+		      	<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+						  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="white"/>
+						</svg>
+		      	<div class="body-type">
+		      		<h4>
+		      			Автономные канализации<br> от <span>47 000 ₽</span>
+		      		</h4>
+		      		<p>
+		      			Автономные канализации, септики энергозависимые, емкости.
+		      		</p>
+		      		<a href="#">Открыть каталог</a>
+		      	</div>
+		      </div>
+		      <div class="swiper-slide">
+		      	<img class="logo" src="img/chelseptiks-types.png" alt="">
+		      	<div class="line"></div>
+		      	<img class="circ" src="img/types-1.png" alt="" >
+		      	<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+						  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="white"/>
+						</svg>
+		      	<div class="body-type">
+		      		<h4>
+		      			Септики энергозависимые<br> от <span>15 600 ₽</span>
+		      		</h4>
+		      		<p>
+		      			Автономные канализации, септики энергозависимые, емкости.
+		      		</p>
+		      		<a href="#">Открыть каталог</a>
+		      	</div>
+		      </div>
+		      <div class="swiper-slide">
+		      	<img class="logo" src="img/chelseptiks-types.png" alt="">
+		      	<div class="line"></div>
+		      	<img class="circ" src="img/types-1.png" alt="" >
+		      	<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+						  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="white"/>
+						</svg>
+		      	<div class="body-type">
+		      		<h4>
+		      			Все виды септиков<br> от <span>13 990 ₽</span>
+		      		</h4>
+		      		<p>
+		      			Автономные канализации, септики энергозависимые, емкости.
+		      		</p>
+		      		<a href="#">Открыть каталог</a>
+		      	</div>
+		      </div>
+		      <div class="swiper-slide">
+		      	<img class="logo" src="img/chelseptiks-types.png" alt="">
+		      	<div class="line"></div>
+		      	<img class="circ" src="img/types-1.png" alt="" >
+		      	<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+						  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="white"/>
+						</svg>
+		      	<div class="body-type">
+		      		<h4>
+		      			Автономные канализации<br> от <span>47 000 ₽</span>
+		      		</h4>
+		      		<p>
+		      			Автономные канализации, септики энергозависимые, емкости.
+		      		</p>
+		      		<a href="#">Открыть каталог</a>
+		      	</div>
+		      </div>
+		      <div class="swiper-slide">
+		      	<img class="logo" src="img/chelseptiks-types.png" alt="">
+		      	<div class="line"></div>
+		      	<img class="circ" src="img/types-1.png" alt="" >
+		      	<svg xmlns="http://www.w3.org/2000/svg" width="17" height="12" viewBox="0 0 17 12" fill="none">
+						  <path d="M16.5303 6.53033C16.8232 6.23744 16.8232 5.76256 16.5303 5.46967L11.7574 0.696699C11.4645 0.403806 10.9896 0.403806 10.6967 0.696699C10.4038 0.989593 10.4038 1.46447 10.6967 1.75736L14.9393 6L10.6967 10.2426C10.4038 10.5355 10.4038 11.0104 10.6967 11.3033C10.9896 11.5962 11.4645 11.5962 11.7574 11.3033L16.5303 6.53033ZM0 6.75H16V5.25H0V6.75Z" fill="white"/>
+						</svg>
+		      	<div class="body-type">
+		      		<h4>
+		      			Септики энергозависимые<br> от <span>15 600 ₽</span>
+		      		</h4>
+		      		<p>
+		      			Автономные канализации, септики энергозависимые, емкости.
+		      		</p>
+		      		<a href="#">Открыть каталог</a>
+		      	</div>
+		      </div>
+		    </div>
+		    <div class="swiper-buttons">
+		    	<div class="swiper-button-prev">
+		    		<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+						  <circle cx="21" cy="21" r="20.25" transform="matrix(-1 0 0 1 42 0)" stroke="#686868" stroke-width="1.5"/>
+						  <path d="M12.4697 21.5303C12.1768 21.2374 12.1768 20.7626 12.4697 20.4697L17.2426 15.6967C17.5355 15.4038 18.0104 15.4038 18.3033 15.6967C18.5962 15.9896 18.5962 16.4645 18.3033 16.7574L14.0607 21L18.3033 25.2426C18.5962 25.5355 18.5962 26.0104 18.3033 26.3033C18.0104 26.5962 17.5355 26.5962 17.2426 26.3033L12.4697 21.5303ZM29 21.75H13V20.25H29V21.75Z" fill="#686868"/>
+						</svg>
+		    	</div>
+    			<div class="swiper-button-next">
+    				<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+						  <circle cx="21" cy="21" r="20.25" stroke="#686868" stroke-width="1.5"/>
+						  <path d="M29.5303 21.5303C29.8232 21.2374 29.8232 20.7626 29.5303 20.4697L24.7574 15.6967C24.4645 15.4038 23.9896 15.4038 23.6967 15.6967C23.4038 15.9896 23.4038 16.4645 23.6967 16.7574L27.9393 21L23.6967 25.2426C23.4038 25.5355 23.4038 26.0104 23.6967 26.3033C23.9896 26.5962 24.4645 26.5962 24.7574 26.3033L29.5303 21.5303ZM13 21.75H29V20.25H13V21.75Z" fill="#686868"/>
+						</svg>
+    			</div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		  </div>
+  	</section>
+
+  	<!-- <section class="quiz container">
+			<form action="" id="quiz">
+			  <div class="quiz-wrap">
+			  	<div class="quiz-right">
+			      <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/quiz/right.jpg" alt="" class="quiz-right__bg">
+			      <div class="quiz-right__top">
+			        <div class="quiz-right__title">В конце теста получите:</div>
+			        <div class="quiz-right__get">
+			          <p>Подбор септика
+			            <br> под ключ с расчетом
+			            <br> стоимости и гарантией
+			            <br> лучшей цены</p>
+			          <p>Выберите 1
+			            <br> из 2-х подарков</p>
+			        </div>
+			      </div>
+			      <div class="quiz-right__bottom">
+			        <span>Денис Кончаров</span><br>
+			        Технический специалист Losseptik
+			      </div>
+			    </div>
+			    <div class="quiz-main">
+
+			      <div class="quiz-line">
+			        <div class="quiz-line__bg" style="width: 5%;"></div>
+			        <p class="quiz-line__text">Расчет пройден на <span class="quiz-line__percent">0</span>%</p>
+			      </div>
+
+			      <div class="quiz-question active" data-q="1">
+			        <div class="quiz-question__title">Проживание в доме</div>
+			        <div class="quiz-question__photo">
+
+			          <label class="quiz-question__photo-label">
+			            <input type="radio" name="Проживание в доме" value="Круглогодично" onclick="">
+			            <div class="quiz-question__photo-img">
+			              <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/quiz/q-1/a-1.jpg" alt="Круглогодично">
+			              <div class="quiz-question__check quiz-question__photo-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			            </div>
+			            <p class="quiz-question__photo-text">Круглогодично</p>
+			          </label>
+
+			          <label class="quiz-question__photo-label">
+			            <input type="radio" name="Проживание в доме" value="Летнее" onclick="">
+			            <div class="quiz-question__photo-img">
+			              <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/quiz/q-1/a-2.jpg" alt="Летнее">
+			              <div class="quiz-question__check quiz-question__photo-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			            </div>
+			            <p class="quiz-question__photo-text">Летнее</p>
+			          </label>
+
+			          <label class="quiz-question__photo-label">
+			            <input type="radio" name="Проживание в доме" value="Периодический (наездами)" onclick="">
+			            <div class="quiz-question__photo-img">
+			              <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/quiz/q-1/a-3.jpg" alt="Периодический">
+			              <div class="quiz-question__check quiz-question__photo-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			            </div>
+			            <p class="quiz-question__photo-text">Периодический (наездами)</p>
+			          </label>
+
+			        </div>
+			      </div>
+
+			      <div class="quiz-question" data-q="2">
+			        <div class="quiz-question__title">Количество сантехнических точек?</div>
+			        <div class="quiz-question__number">
+
+			          <div class="quiz-question__number-block">
+			            <p>Туалет</p>
+			            <div class="quiz-question__number-choose">
+			              <div class="quiz-question__number-minus">-</div>
+			              <input name="Туалет" placeholder="0" value="0" type="tel" class="quiz-question__number-input" maxlength="1" size="1" onchange="">
+			              <div class="quiz-question__number-plus">+</div>
+			            </div>
+			          </div>
+
+			          <div class="quiz-question__number-block">
+			            <p>Раковина</p>
+			            <div class="quiz-question__number-choose">
+			              <div class="quiz-question__number-minus">-</div>
+			              <input name="Раковина" placeholder="0" value="0" type="tel" class="quiz-question__number-input" maxlength="1" size="1" onchange="">
+			              <div class="quiz-question__number-plus">+</div>
+			            </div>
+			          </div>
+
+			          <div class="quiz-question__number-block">
+			            <p>Душ</p>
+			            <div class="quiz-question__number-choose">
+			              <div class="quiz-question__number-minus">-</div>
+			              <input name="Душ" placeholder="0" value="0" type="tel" class="quiz-question__number-input" maxlength="1" size="1" onchange="">
+			              <div class="quiz-question__number-plus">+</div>
+			            </div>
+			          </div>
+
+			          <div class="quiz-question__number-block">
+			            <p>Стиральная машина</p>
+			            <div class="quiz-question__number-choose">
+			              <div class="quiz-question__number-minus">-</div>
+			              <input name="Стиральная машина" placeholder="0" value="0" type="tel" class="quiz-question__number-input" maxlength="1" size="1" onchange="">
+			              <div class="quiz-question__number-plus">+</div>
+			            </div>
+			          </div>
+
+			          <div class="quiz-question__number-block">
+			            <p>Ванна</p>
+			            <div class="quiz-question__number-choose">
+			              <div class="quiz-question__number-minus">-</div>
+			              <input name="Ванна" placeholder="0" value="0" type="tel" class="quiz-question__number-input" maxlength="1" size="1" onchange="">
+			              <div class="quiz-question__number-plus">+</div>
+			            </div>
+			          </div>
+
+			          <div class="quiz-question__number-block">
+			            <p>Посудомоечная машина</p>
+			            <div class="quiz-question__number-choose">
+			              <div class="quiz-question__number-minus">-</div>
+			              <input name="Посудомоечная машина" placeholder="0" value="0" type="tel" class="quiz-question__number-input" maxlength="1" size="1" onchange="">
+			              <div class="quiz-question__number-plus">+</div>
+			            </div>
+			          </div>
+
+			        </div>
+			      </div>
+
+			      <div class="quiz-question" data-q="3">
+			        <div class="quiz-question__title">Сколько человек будет
+			          <br> проживать в доме?</div>
+			        <div class="quiz-question__text">
+			          <label>
+			            <div class="quiz-question__text-left">
+			              <input type="radio" name="Сколько человек" value="1-3 человека" onclick="">
+			              <div class="quiz-question__check quiz-question__text-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			              <p>1-3 человека</p>
+			            </div>
+			          </label>
+			          <label>
+			            <div class="quiz-question__text-left">
+			              <input type="radio" name="Сколько человек" value="4-6 человека" onclick="">
+			              <div class="quiz-question__check quiz-question__text-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			              <p>4-6 человека</p>
+			            </div>
+			          </label>
+			          <label>
+			            <div class="quiz-question__text-left">
+			              <input type="radio" name="Сколько человек" value="7-10 человек" onclick="">
+			              <div class="quiz-question__check quiz-question__text-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			              <p>7-10 человек</p>
+			            </div>
+			          </label>
+			          <label>
+			            <div class="quiz-question__text-left">
+			              <input type="radio" name="Сколько человек" value="11 и более" onclick="">
+			              <div class="quiz-question__check quiz-question__text-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			              <p>11 и более</p>
+			            </div>
+			          </label>
+			        </div>
+			      </div>
+
+			      <div class="quiz-question" data-q="4">
+			        <div class="quiz-question__title">Куда будете отводить воду из септика?</div>
+			        <div class="quiz-question__text">
+			          <label>
+			            <div class="quiz-question__text-left">
+			              <input type="radio" name="отводить воду" value="Канава" onclick="">
+			              <div class="quiz-question__check quiz-question__text-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			              <p>Канава</p>
+			            </div>
+			            <div class="quiz-question__text-hint">
+			              <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/icons/i.svg" alt="Канава">
+			              <div class="quiz-question__text-hint-text">Стоки отводятся в ливневую канализацию. Необходима модель с принудительным сбросом.</div>
+			            </div>
+			          </label>
+			          <label>
+			            <div class="quiz-question__text-left">
+			              <input type="radio" name="отводить воду" value="Колодец" onclick="">
+			              <div class="quiz-question__check quiz-question__text-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			              <p>Колодец</p>
+			            </div>
+			            <div class="quiz-question__text-hint">
+			              <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/icons/i.svg" alt="Колодец">
+			              <div class="quiz-question__text-hint-text">Стоки отводятся в дренажный колодец. Необходимость принудительного сброса зависит от уровня грунтовых вод</div>
+			            </div>
+			          </label>
+			          <label>
+			            <div class="quiz-question__text-left">
+			              <input type="radio" name="отводить воду" value="Грунт" onclick="">
+			              <div class="quiz-question__check quiz-question__text-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			              <p>Грунт</p>
+			            </div>
+			            <div class="quiz-question__text-hint">
+			              <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/icons/i.svg" alt="Грунт">
+			              <div class="quiz-question__text-hint-text">Стоки отводятся на поверхность грунта. Необходима модель с принудительным сбросом</div>
+			            </div>
+			          </label>
+			          <label>
+			            <div class="quiz-question__text-left">
+			              <input type="radio" name="отводить воду value=" Не="" знаю,="" нужна="" консультация"="" onclick="">
+			              <div class="quiz-question__check quiz-question__text-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			              <p>Не знаю, нужна консультация</p>
+			            </div>
+			          </label>
+			        </div>
+			      </div>
+
+			      
+
+			      <div class="quiz-question" data-q="5">
+			        <div class="quiz-question__title">Выберите подарок</div>
+			        <div class="quiz-question__photo big-photo ">
+
+			          <label class="quiz-question__photo-label">
+			            <input type="radio" name="подарок" value="20% скидка на монтаж" onclick="">
+			            <div class="quiz-question__photo-img">
+			              <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/quiz/q-6/a-1.jpg" alt="">
+			              <div class="quiz-question__check quiz-question__photo-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			            </div>
+			            <p class="quiz-question__photo-text">- 20% скидка на монтаж</p>
+			          </label>
+
+			          <label class="quiz-question__photo-label">
+			            <input type="radio" name="подарок" value="Разовое сервисное обслуживание" onclick="">
+			            <div class="quiz-question__photo-img">
+			              <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/quiz/q-6/a-2.jpg" alt="">
+			              <div class="quiz-question__check quiz-question__photo-check">
+			                <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+			                  <path d="M7.85743 0.829457L7.15248 0.139535C7.05743 0.0465116 6.93861 0 6.80396 0C6.66931 0 6.5505 0.0465116 6.45545 0.139535L3.06535 3.45736L1.55248 1.96899C1.45743 1.87597 1.33861 1.82946 1.20396 1.82946C1.06931 1.82946 0.950495 1.87597 0.855446 1.96899L0.150495 2.65891C0.0475248 2.75194 0 2.86822 0 3C0 3.13178 0.0475247 3.24806 0.142574 3.34109L2.01188 5.17054L2.71683 5.86047C2.81188 5.95349 2.93069 6 3.06535 6C3.2 6 3.31881 5.95349 3.41386 5.86047L4.11881 5.17054L7.85743 1.51163C7.95248 1.4186 8 1.30233 8 1.17054C8 1.03876 7.95248 0.922481 7.85743 0.829457Z" fill="#D8D8D8"></path>
+			                </svg>
+			              </div>
+			            </div>
+			            <p class="quiz-question__photo-text">Разовое сервисное обслуживание</p>
+			          </label>
+
+			        </div>
+			      </div>
+
+			      <div class="quiz-footer">
+			        <div class="quiz-footer__hint">
+			          <img loading="lazy" src="<?php bloginfo('template_url'); ?>/assets/img/icons/touch-black.svg" alt="">
+			          <p><span>Выберите вариант ответа</span>
+			            <br> и нажмите кнопку «Далее»</p>
+			        </div>
+			        <div class="quiz-buttons">
+			          <button class="quiz-btn quiz-btn__prev" style="display: flex;">Назад</button>
+			          <button class="quiz-btn quiz-btn__next" disabled="disabled">Далее</button>
+			        </div>
+			      </div>
+
+			    </div>
+
+			    
+			  </div>
+			
+			</form>
+		</section> -->
+
+<!-- /.quiz -->
   </section>
+
 
 
 
@@ -1451,6 +2062,8 @@
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <script src="js/index.js"></script>
 
 </body>
