@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Septik</title>
+  <title>Главная</title>
   
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
   <link rel="icon" type="mage/vnd.microsoft.icon" href="/assets/img/favicon.ico">
@@ -23,18 +23,34 @@
 </head>
 <body>
 <div id="page" class="page">
-	<a href="#" id="open-menu" class="open-menu">
+
+	<button id="open-menu" class="open-menu">
 		<img src="img/menu-btn-white.svg" alt="" class="open">
 		<img src="img/menu-btn-white-close.svg" alt="" class="close">
-	</a>
-  <div class="opacity-block "></div>
-  <section class="nav nav-bar">
+	</button>
 
+  <div class="opacity-block "></div>
+
+  <section class="nav nav-bar">
     <div class="nav-bar-block_container">
-      <a href="/"><img src="img/logo-main.svg" alt="" class="logo"></a>
+      <a href="/">
+      	<img src="img/logo-main.svg" alt="" class="logo logo-desktop">
+      	<img src="img/mobile-logo.svg" alt="" class="logo logo-mobile">
+      </a>
       <p class="descr">
       	Инженерные коммуникации для загородных домов под ключ в Челябинске
       </p>
+    	<div class="img-descr">
+				<img src="img/map.png" alt="">
+				<div class="descr">
+					<p>
+						454008, г.&nbsp;Челябинск, Свердловский проспект&nbsp;32, офис&nbsp;108
+					</p>
+					<a href="">
+						Посмотреть на карте
+					</a>
+				</div>
+			</div>
       <div class="nav-bar-block_menu">
         <ul id="accordion" class="accordion">
         	<li>
@@ -167,8 +183,6 @@
     </div>
   </section>
 
-
-
   <section class="all-body">
 
   	<section class="mobile-header">
@@ -183,13 +197,13 @@
   				<a href="#">
   					<img src="img/wp.svg" alt="">
   				</a>
-  				<a href="#" class="open-menu">
+  				<!-- <a href="#" class="open-menu">
   					<img src="img/menu-btn.svg" alt="">
-  				</a>
+  				</a> -->
   			</div>
   		</div>
   		<p>
-  			Инженерные коммуникации для загородных<br> домов под ключ в Челябинске
+  			Инженерные коммуникации для загородных домов под ключ в Челябинске
   		</p>
   	</section>
 
@@ -257,11 +271,10 @@
 		      	<div class="main-body">
 		      		<img src="img/zero-ing.svg" alt="" class="zero-ing">
 		      		<h1>
-		      			Автономная <br> канализация для <br>загородных домов<br>
-
+		      			Автономная канализация для загородных домов
 		      		</h1>
 		      		<p>
-		      			Без накруток, цена завода-изготовителя, а также<br> фиксация цена в договоре.
+		      			Без накруток, цена завода-изготовителя, а также фиксация цена в договоре.
 		      		</p>
 		      		<a href="#">
 		      			калькулятор цен
@@ -529,13 +542,13 @@
 		    </div>
 		    <div class="swiper-buttons">
 		    	<div class="swiper-button-prev">
-		    		<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+		    		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" fill="none">
 						  <circle cx="21" cy="21" r="20.25" transform="matrix(-1 0 0 1 42 0)" stroke="#686868" stroke-width="1.5"/>
 						  <path d="M12.4697 21.5303C12.1768 21.2374 12.1768 20.7626 12.4697 20.4697L17.2426 15.6967C17.5355 15.4038 18.0104 15.4038 18.3033 15.6967C18.5962 15.9896 18.5962 16.4645 18.3033 16.7574L14.0607 21L18.3033 25.2426C18.5962 25.5355 18.5962 26.0104 18.3033 26.3033C18.0104 26.5962 17.5355 26.5962 17.2426 26.3033L12.4697 21.5303ZM29 21.75H13V20.25H29V21.75Z" fill="#686868"/>
 						</svg>
 		    	</div>
     			<div class="swiper-button-next">
-    				<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 42 42" fill="none">
+    				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42" fill="none">
 						  <circle cx="21" cy="21" r="20.25" stroke="#686868" stroke-width="1.5"/>
 						  <path d="M29.5303 21.5303C29.8232 21.2374 29.8232 20.7626 29.5303 20.4697L24.7574 15.6967C24.4645 15.4038 23.9896 15.4038 23.6967 15.6967C23.4038 15.9896 23.4038 16.4645 23.6967 16.7574L27.9393 21L23.6967 25.2426C23.4038 25.5355 23.4038 26.0104 23.6967 26.3033C23.9896 26.5962 24.4645 26.5962 24.7574 26.3033L29.5303 21.5303ZM13 21.75H29V20.25H13V21.75Z" fill="#686868"/>
 						</svg>
@@ -560,11 +573,9 @@
 	         			</div>
 	         		</div>
 	            <div class="sQwiz__inner-sp"> 
-	               
 	               <div class="sQwiz__step active">
 	                  <div class="container">
 	                  	<div class="sQwiz__body">
-	                     
 	                     <div class="sQwiz__title">Выберите тип вашего объекта
 	                     </div>
 	                     <div class="row">
@@ -945,32 +956,32 @@
 		        </div>
 		      </a>
 		      <a href="#" class="owl-item" >
-		        <div data-manufacturer="3" class="models-manufacturer__block ">
+		        <div class="models-manufacturer__block ">
 		          <img loading="lazy" src="https://chel-septik.ru/wp-content/uploads/2023/08/italantey.png" alt="">
 		        </div>
 		      </a>
 		      <a href="#" class="owl-item">
-		        <div data-manufacturer="4" class="models-manufacturer__block ">
+		        <div class="models-manufacturer__block ">
 		          <img loading="lazy" src="https://chel-septik.ru/wp-content/uploads/2023/09/gost.png" alt="">
 		        </div>
 		      </a>
 		      <a href="#" class="owl-item">
-		        <div data-manufacturer="5" class="models-manufacturer__block ">
+		        <div class="models-manufacturer__block ">
 		          <img loading="lazy" src="https://chel-septik.ru/wp-content/uploads/2023/09/yomkost.png" alt="">
 		        </div>
 		      </a>
 		      <a href="#" class="owl-item">
-		        <div data-manufacturer="6" class="models-manufacturer__block ">
+		        <div class="models-manufacturer__block ">
 		          <img loading="lazy" src="https://chel-septik.ru/wp-content/uploads/2023/08/42.jpg" alt="">
 		        </div>
 		      </a>
 		      <a href="#" class="owl-item">
-		        <div data-manufacturer="7" class="models-manufacturer__block ">
+		        <div class="models-manufacturer__block ">
 		          <img loading="lazy" src="https://chel-septik.ru/wp-content/uploads/2023/08/1.png" alt="">
 		        </div>
 		      </a>
 		      <a href="#" class="owl-item">
-		        <div data-manufacturer="8" class="models-manufacturer__block ">
+		        <div class="models-manufacturer__block ">
 		          <img loading="lazy" src="https://chel-septik.ru/wp-content/uploads/2023/08/3.png" alt="">
 		        </div>
 		      </a>
@@ -992,10 +1003,10 @@
 		  <div class="swiper septik-catalog-main-swiper">
 		  	<div class="title">
 					<h2>
-						Популярные модели станций <br> очистки
+						Популярные модели станций очистки
 					</h2>
 					<p>
-						«Мос-Септик» ваш надежный партнер в создании современной системы очистки сточных вод на даче или в частном доме. В тематических вкладках <br> электронного каталога можно ознакомиться со всем перечнем предлагаемой продукции и услуг.
+						«Мос-Септик» ваш надежный партнер в создании современной системы очистки сточных вод на даче или в частном доме. В тематических вкладках электронного каталога можно ознакомиться со всем перечнем предлагаемой продукции и услуг.
 					</p>
 				</div>
 		    <div class="swiper-wrapper">
@@ -1465,11 +1476,11 @@
   	<section class="any-question">
   		<div class="img-title">
   			<img src="img/any-question.png" alt="">
-  			<h2>Остались вопросы?<br> Спросите эксперта!</h2>
+  			<h2>Остались вопросы? Спросите эксперта!</h2>
   		</div>
   		<div class="descr-btn">
   			<p>
-  				Поможем разобраться, <br>не допустить ошибок.
+  				Поможем разобраться, не допустить ошибок.
   			</p>
   			<a href="#">заказать консультацию</a>
   		</div>
@@ -1616,9 +1627,7 @@
       <div class="cont">
       	<img src="img/zamer-bg.png" alt="">
       	<div class="green-rect"></div>
-      	<div class="man">
-      		<img src="img/zamer-man.png" alt="">
-      	</div>
+
     	  <div class="name-job-man">
     	  	<div class="cont">
 	    	  	<svg xmlns="http://www.w3.org/2000/svg" width="214" height="136" viewBox="0 0 214 136" fill="none">
@@ -1636,6 +1645,9 @@
 						</div>
     	  	</div>
     		</div>
+    		      	<div class="man">
+      		<img src="img/zamer-man.png" alt="">
+      	</div>
     		<div class="sale-line">
     			<div class="cont-rel">
     				<div class="line">
@@ -1700,7 +1712,7 @@
 								</svg>
 				        <input type="tel" placeholder="Номер телефона" class="phone" name="phone" access="false" id="phone" required="required" aria-required="true">
 						  </div>
-			        <button type="submit" class="btn-default btn" name="button" access="false" style="default" id="button">получить файл</button>
+			        <button type="submit" class="btn-default btn" name="button" access="false" style="default" id="button">обратный звонок</button>
 			        <span>
 			        	При отправке данных вы принимаете <br>
 								<a href="#">политику конфиденциальности</a>
@@ -1712,7 +1724,8 @@
   	</section>
 
   	<section class="adress-map">
-  		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeb4fcc97c83a5eb52d1e1d5356ad4bc2fac09997a11aaf2527a75ce5b4b1e922&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+  		<script class="desktop-map" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeb4fcc97c83a5eb52d1e1d5356ad4bc2fac09997a11aaf2527a75ce5b4b1e922&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
+  		<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af49e4aa22a5d93dcbd05371c0eaf1a27a73a613b4f345ec5b65ef43a783691b6&amp;width=100%25&amp;height=100%&amp;lang=ru_RU&amp;scroll=true"></script>
   		<div class="adress">
 				<div class="column">
 					<div class="row">

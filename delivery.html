@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Septik</title>
+  <title>Доставка</title>
   
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
   <link rel="icon" type="mage/vnd.microsoft.icon" href="/assets/img/favicon.ico">
@@ -23,18 +23,34 @@
 </head>
 <body>
 <div id="page" class="page">
-	<a href="#" id="open-menu" class="open-menu">
+
+	<button id="open-menu" class="open-menu">
 		<img src="img/menu-btn-white.svg" alt="" class="open">
 		<img src="img/menu-btn-white-close.svg" alt="" class="close">
-	</a>
-  <div class="opacity-block "></div>
-  <section class="nav nav-bar">
+	</button>
 
+  <div class="opacity-block "></div>
+
+  <section class="nav nav-bar">
     <div class="nav-bar-block_container">
-      <a href="/"><img src="img/logo-main.svg" alt="" class="logo"></a>
+      <a href="/">
+      	<img src="img/logo-main.svg" alt="" class="logo logo-desktop">
+      	<img src="img/mobile-logo.svg" alt="" class="logo logo-mobile">
+      </a>
       <p class="descr">
       	Инженерные коммуникации для загородных домов под ключ в Челябинске
       </p>
+    	<div class="img-descr">
+				<img src="img/map.png" alt="">
+				<div class="descr">
+					<p>
+						454008, г.&nbsp;Челябинск, Свердловский проспект&nbsp;32, офис&nbsp;108
+					</p>
+					<a href="">
+						Посмотреть на карте
+					</a>
+				</div>
+			</div>
       <div class="nav-bar-block_menu">
         <ul id="accordion" class="accordion">
         	<li>
@@ -167,8 +183,6 @@
     </div>
   </section>
 
-
-
   <section class="all-body">
 
   	<section class="mobile-header">
@@ -183,13 +197,13 @@
   				<a href="#">
   					<img src="img/wp.svg" alt="">
   				</a>
-  				<a href="#" class="open-menu">
+  				<!-- <a href="#" class="open-menu">
   					<img src="img/menu-btn.svg" alt="">
-  				</a>
+  				</a> -->
   			</div>
   		</div>
   		<p>
-  			Инженерные коммуникации для загородных<br> домов под ключ в Челябинске
+  			Инженерные коммуникации для загородных домов под ключ в Челябинске
   		</p>
   	</section>
   	
@@ -264,7 +278,7 @@
 	    	</div>
 	    </div>
 	    <div class="border-rect">
-	    	<svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" viewBox="0 0 48 49" fill="none">
+	    	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 49" fill="none">
 				  <path d="M13.4568 32.3983C13.7392 33.4202 14.7967 34.0201 15.8188 33.7377C16.8409 33.4553 17.4406 32.3978 17.1582 31.3755L13.4568 32.3983ZM2.43384 5.41498C1.41205 5.13148 0.353877 5.73 0.0703771 6.75179C-0.213123 7.77361 0.385392 8.83178 1.40721 9.11528L2.43384 5.41498ZM45.9242 33.5777C46.9506 33.3112 47.5665 32.2628 47.2997 31.2365C47.033 30.2102 45.9849 29.5945 44.9586 29.8613L45.9242 33.5777ZM20.3473 38.2713C21.1399 41.1403 19.4 44.1671 16.318 44.9681L17.2839 48.6848C22.3451 47.3695 25.4379 42.278 24.0486 37.2488L20.3473 38.2713ZM16.318 44.9681C13.2159 45.7743 10.103 43.9738 9.30374 41.0807L5.60232 42.1032C6.98505 47.1083 12.2426 49.995 17.2839 48.6848L16.318 44.9681ZM9.30374 41.0807C8.51115 38.2116 10.2509 35.1849 13.333 34.3838L12.3671 30.6672C7.30575 31.9825 4.2129 37.0739 5.60232 42.1032L9.30374 41.0807ZM13.333 34.3838C16.435 33.5777 19.5479 35.3782 20.3473 38.2713L24.0486 37.2488C22.6659 32.2436 17.4084 29.3572 12.3671 30.6672L13.333 34.3838ZM17.1582 31.3755L11.6483 11.4314L7.94689 12.454L13.4568 32.3983L17.1582 31.3755ZM6.7954 6.62507L2.43384 5.41498L1.40721 9.11528L5.76877 10.3254L6.7954 6.62507ZM11.6483 11.4314C11.0003 9.08584 9.14269 7.27632 6.7954 6.62507L5.76877 10.3254C6.8583 10.6277 7.66971 11.4507 7.94689 12.454L11.6483 11.4314ZM22.6808 39.6184L45.9242 33.5777L44.9586 29.8613L21.7148 35.9017L22.6808 39.6184Z" fill="#8DC63F"/>
 				  <path opacity="0.5" d="M18.7297 15.6704C17.4881 11.176 16.8673 8.92885 17.9211 7.15852C18.9749 5.38816 21.2918 4.78604 25.9258 3.58179L30.8408 2.30448C35.4745 1.10023 37.7916 0.498081 39.6167 1.52018C41.442 2.54228 42.0628 4.78947 43.3044 9.28382L44.6216 14.0508C45.8632 18.5451 46.484 20.7923 45.43 22.5626C44.3763 24.3331 42.0595 24.9352 37.4255 26.1395L32.5105 27.4167C27.8768 28.6209 25.5597 29.223 23.7344 28.2011C21.909 27.1788 21.2882 24.9316 20.0466 20.4375L18.7297 15.6704Z" stroke="#8DC63F" stroke-width="2"/>
 				</svg>
